@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    
+    background-color: white;
+    border-radius: 16px;
+    border: none;
+    padding: 25px;
+    height: auto;
+}
+
+.createContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00bfff;
+    height: 100vh;
+    width: 100vw;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonElement{
+    margin-top: 10px;
+    background-color: #8000ff;
+    border: none;
+    border-radius: 8px;
+    color:white;
+    padding:5px;
+    margin-bottom:20px;
+}
+
+.error{
+    color: red;
+}

@@ -1,0 +1,71 @@
+.headerContainer{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkItem{
+    background-color: #E49FF2 ;
+    border-radius: 16px;
+    border: none;
+    margin:20px;
+    padding:15px;
+}
+
+.fullContainer{
+    background-color: #9FF2C9;
+    height: 200vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Times;
+}
+
+.taskContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    width: auto;
+    height: auto;
+    padding: 15px;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: #F9F7FA;
+    padding: 12px;
+}
+
+.createButton{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.deleteButton{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.assign{
+    font-weight:normal;
+}
+
+.statusContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
